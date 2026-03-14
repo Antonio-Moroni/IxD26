@@ -4,327 +4,343 @@
     <title>My Web Page</title>
   </head>
   <body>
-		<title>Part 1</title>
-		<span style="font-weight: bold; font-size: 30px">NAVIGATION:</span>
-		<p style="font-size:20px">
-			<a href="#website">The website</a>
-			&nbsp&nbsp&nbsp
-			<a href="#flows">The flows</a>
-			&nbsp&nbsp&nbsp
-			<a href="#flow1">Flow chart 1</a>
-			&nbsp&nbsp&nbsp
-			<a href="#flow2">Flow chart 2</a>
-			&nbsp&nbsp&nbsp
-			<a href="#painPointLog">Pain point Log</a>
-		</p>
-		<div style="background-color:black; height:5px">
+	<div class="topmenubg">
+		<div style="margin-left: 25px;">
+			<span style="font-size: 28px; font-weight: bold; font: monserrat;">Interaction Design Report: Compucore3 Website Flows</span>
+			<span style="float: right; margin-right: 25px; padding-top: 10px; color:blue"> IxD PROJECT 2026</span><br><br>
+			<span style="color: gray">Student: Antonio Moroni &nbsp;&nbsp;|&nbsp;&nbsp; Student number: C00325292 &nbsp;&nbsp;|&nbsp;&nbsp; Website: Compucore3</span><br>
+			<div class="separatordiv" style="margin-right: 25px; margin-bottom: 5px; margin-top: 5px;"></div>
+			<span style="font-weight: bold; font-size: 25px;">NAVIGATION MENU:</span>
+			<p style="font-size:20px;">
+				<a class="navbutton" href="#week1">WEEK 1</a>
+				&nbsp&nbsp&nbsp
+				<a href="#flows">The flows</a>
+				&nbsp&nbsp&nbsp
+				<a href="#flow1">Flow chart 1</a>
+				&nbsp&nbsp&nbsp
+				<a href="#flow2">Flow chart 2</a>
+				&nbsp&nbsp&nbsp
+				<a href="#painPointLog">Pain point Log</a>
+			</p>
 		</div>
-		<p>
-			<span style="font-weight: bold; font-size: 30px" id="website">The website</span><br>
-			<span style="font-size: 20px">The compucore3 website has been made by 
-			the "CompuCore" research group at SETU. Its functionality is to for 
-			teachers to make assignments and for studens to submit their work. </span>
-		</p>
-		<p>
-			<span style="font-weight: bold; font-size: 30px" id="flows">The flows</span><br>
-			<span style="font-size: 20px">The two flows are going to review the process of:
-				<ol style="font-size: 20px">
-					<li><b>Flow 1 - View all submissions:</b><br>
-						A user has to navigate from the compucore3 website
-						home page to the "All artefacts" page to view all the
-						artefacts submissions.
-					</li>
-					<li><b>Flow 2 - Review a student’s artefact</b><br>
-						A user has to navigate from the "All artefacts" page
-						to a specific artefact page and leave a review of said
-						artefact.
-					</li>
-				</ol>
-			</span>
-		</p>
-		<br>
-		<span style="font-weight: bold; font-size: 30px" id="flow1">Flow chart 1</span><br>
-		<table border="1px solid black" style="width:31.7%">
-			<tr>
-				<th colspan="2">Flow 1 - Overview</th>
-			</tr>
-			<tr>
-				<td>Flow name</td>
-				<td>Viewing all submissions</td>
-			</tr>
-			<tr>
-				<td>User role</td>
-				<td>Teacher</td>
-			</tr>
-			<tr>
-				<td>Trigger (why does the <br>user start this?)</td>
-				<td>The user is tasked to view the artefacts on the compucore3 website</td>
-			</tr>
-			<tr>
-				<td>End state (what does <br>success look like?)</td>
-				<td>The user is going to be in the page of the last artefact of the list of <br>
-					artefacts found in the compucore3 website</td>
-			</tr>
-		</table>
-		<br>
-		<p style="font-size: 20px; width:70%"><b>Flow summary: </b> 
-		The user navigates from the compucore3 home page to the
-		"All artefacts" page by pressing the button with the same text found on the 
-		top middle of the home page. Then the user will be able to access any of The
-		artefacts by clicking on any of the rows of the list that contains some informations
-		about each artefact.
-		</p>
-		<table border="1px solid black" style="width:70%">
-			<tr>
-				<th style="width:2%">#</th>
-				<th style="width:18%">User Action</th>
-				<th style="width:25%">System Response</th>
-				<th style="width:25%">User's Goal</th>
-				<th style="width:30%">Pain Point / Issue?</th>
-			</tr>
-			<tr>
-				<td style="text-align: center">1</th>
-				<td>From the compucore3 home page the user presses the “All artefacts”
-					button in the top- middle of the screen</td>
-				<td>The system takes the user to the “All artefacts” screen that shows
-					a list of all the submitted artefacts by other users</td>
-				<td>The user wants to get to the page of the compucore3 website 
-					that shows all the artefacts submissions</td>
-				<td><span style="background-color: red">High&nbsp</span>
-					The buttons on the top of the screen are of a bland color
-					(compared to the design of the rest of the page) and are very slim.
-					Any user could easily miss them</td>
-			</tr>
-			<tr>
-				<td style="text-align: center">2</td>
-				<td>The user clicks one the rows in the list of artefacts</td>
-				<td>The system takes the user to the artefact page</td>
-				<td>The user wants to access one of the artefacts of the list</td>
-				<td style="text-align: center">---</td>
-			</tr>
-			<tr>
-				<td style="text-align: center">3</td>
-				<td>The user is in the artefact page and can view the artefact</td>
-				<td>The system shows the artefact</td>
-				<td>The user wants to see the artefact</td>
-				<td style="text-align: center">---</td>
-			</tr>
-			<tr>
-				<td style="text-align: center">4</td>
-				<td>The user presses the “All artefacts” button again to go back to the list
-					of artefacts</td>
-				<td>The system takes the user to the artefacts page again</td>
-				<td>The user wants to go back to the “All artefacts” page to see 
-					the list again (to choose another one)</td>
-				<td><span style="background-color: lime">Low&nbsp</span>
-					The user is sent back to the “All artefacts” page but the page is
-					just a list with barely any “fancy” graphical elements which,
-					combined with the fact that the user is sent back to the start
-					of the list each time, it makes tedious to navigate back to the row 
-					of the same artefact</td>
-			</tr>
-		</table>
-		<br>
-		<br>
-		<br>
-		<span style="font-weight: bold; font-size: 30px" id="flow2">Flow chart 2</span><br>
-		<table border="1px solid black" style="width:31.7%">
-			<tr>
-				<th colspan="2">Flow 2 - Overview</th>
-			</tr>
-			<tr>
-				<td>Flow name</td>
-				<td>Reviewing a student’s artefact</td>
-			</tr>
-			<tr>
-				<td>User role</td>
-				<td>Teacher</td>
-			</tr>
-			<tr>
-				<td>Trigger (why does the user <br>start this?)</td>
-				<td>The user is tasked to review a student’s artefact</td>
-			</tr>
-			<tr>
-				<td>End state (what does <br>success look like?)</td>
-				<td>The user will be in the artefact of the student of their choice</td>
-			</tr>
-		</table>
-		<br>
-		<p style="font-size: 20px; width:70%"><b>Flow summary: </b> 
-		The user navigates from the "All artefacts" page to one of the artefacts page
-		to leave a review. After finding the form, the user compiles it by clicking on all
-		the necessary radio buttons and then fills in the text boxes that appear afterwards.
-		To finish off the user presses the "Done" button and gets redirected to a confusing page,
-		they then go back to the artefact page to check if their review has been successfully
-		uploaded.
-		</p>
-		<table border="1px solid black" style="width:70%">
-			<tr>
-				<th style="width:2%">#</th>
-				<th style="width:18%">User Action</th>
-				<th style="width:25%">System Response</th>
-				<th style="width:25%">User's Goal</th>
-				<th style="width:30%">Pain Point / Issue?</th>
-			</tr>
-			<tr>
-				<td style="text-align: center">1</th>
-				<td>From the “All artefacts” page the user will be able to select 
-					one of the artefacts in the list by pressing the corresponding row</td>
-				<td>The system takes the user to the appropriate artefact page that the 
-					user has selected.</td>
-				<td>The user wants to access the artefact’s page to be able to review it</td>
-				<td style="text-align: center">---</td>
-			</tr>
-			<tr>
-				<td style="text-align: center">2</td>
-				<td>From the page the user scrolls down to see a form-like section for 
-					the reviewing of the artefact</td>
-				<td>The system moves the page up revealing that underneath the section 
-					of the page that shows the artefact, there is a section that is forum-like 
-					with radio buttons for reviewing the artefact</td>
-				<td>The user wants to access a section that would allow them to review 
-					the artefact</td>
-				<td><span style="background-color: yellow">Medium&nbsp</span>
-					The page lacks artistic design elements so it is not intuitive what 
-					the user has / can do when they access it. This especially affects 
-					the side scroll bar so the user doesn’t know that they can scroll 
-					down unless they try to</td>
-			</tr>
-			<tr>
-				<td style="text-align: center">3</td>
-				<td>The user then compiles the form by selecting one of three options 
-					Yes, No or Not applicable for each question on the form.</td>
-				<td>Each time one of the answers options is selected for each question, 
-					a text box appears underneath the question </td>
-				<td>The user wants to review the artefact</td>
-				<td style="text-align: center">---</td>
-			</tr>
-			<tr>
-				<td style="text-align: center">4</td>
-				<td>The user fills the texts box with an appropriate description 
-					of why they’ve selected the answer for the corresponding question</td>
-				<td>The system doesn’t apply any changes to the page</td>
-				<td>The user wonders if the text boxes are mandatory and compiles 
-					them to make a more specific review</td>
-				<td><span style="background-color: yellow">Medium&nbsp</span>
-					The website doesn’t tell that there would be text boxes before showing them, 
-					leaving the user confused as there are also no indications if the text boxes 
-					are mandatory or not, or even if the maker of the artefact will be able
-					to see them</td>
-			</tr>
-			<tr>
-				<td style="text-align: center">5</td>
-				<td>The user, once completed the form, presses the “Finish” button</td>
-				<td>The system sends the user to a different page</td>
-				<td>The user wants to send the completed form to the system
-				<td><span style="background-color: red">High&nbsp</span>
-					The page that the user is redirected to is not clear and the
-					user remains confused as there is no back button or a clear
-					statement that the form has been successfully sent</td>
-			</tr>
-			<tr>
-				<td style="text-align: center">6</td>
-				<td>The user goes back to the artefact page by pressing the back
-					button provided by the browser</td>
-				<td>The system shows the artefact page again</td>
-				<td>The user wants to go back to the artefact page to see if 
-					the review they have sent has been successfully uploaded</td>
-				<td style="text-align: center">---</td>
-			</tr>
-			<tr>
-				<td style="text-align: center">7</td>
-				<td>The user searches and sees their review in the section 
-					that contains the informations regarding the artefact</td>
-				<td style="text-align: center">---</td>
-				<td>The user wants to confirm that the review they’ve sent has
-					been correctly uploaded</td>
-				<td><span style="background-color: lime">Low&nbsp</span> 
-					The absence of  clear graphical elements makes, once again,
-					difficult to find the confirmation result in the user having
-					to thoroughly search the whole page</td>
-			</tr>
-		</table>
-		<br>
-		<br>
-		<br>
-		<span style="font-weight: bold; font-size: 30px" id="painPointLog">Pain Point Log</span><br>
-		<table border="1px solid black" style="width:70%">
-			<tr>
-				<th style="width:2%">#</th>
-				<th style="width:3%">Flow</th>
-				<th style="width:5%">Where in the flow?<br>(step/screen)</th>
-				<th style="width:20%">What happened?</th>
-				<th style="width:20%">Why is this a problem?</th>
-				<th style="width:5%">Severity</th>
-			</tr>
-			<tr>
-				<td style="text-align: center">1</td>
-				<td style="text-align: center">1</td>
-				<td style="text-align: center">Step 1</td>
-				<td>The user had difficulty navigating the menu</td>
-				<td>The user can’t complete their set objective 
-					(on the very first step)</td>
-				<td><span style="background-color: red">High&nbsp</span></td>
-			</tr>
-			<tr>
-				<td style="text-align: center">2</td>
-				<td style="text-align: center">1</td>
-				<td style="text-align: center">Step 4</td>
-				<td>The user is sent to the top of the artefact list 
-					every time he goes back to the list page</td>
-				<td>The user has to scroll back down to the one they 
-					were looking at, and the absence of graphical 
-					decorations makes finding the previous one more tedious </td>
-				<td><span style="background-color: lime">Low&nbsp</span></td></td>
-			</tr>
-			<tr>
-				<td style="text-align: center">3</td>
-				<td style="text-align: center">2</td>
-				<td style="text-align: center">Step 2</td>
-				<td>The user is confused when they open the artefact 
-					page for the first time</td>
-				<td>The user would have to take more time than needed 
-					to understand what they’re doing in the page</td>
-				<td><span style="background-color: yellow">Medium&nbsp</span></td>
-			</tr>
-			<tr>
-				<td style="text-align: center">4</td>
-				<td style="text-align: center">2</td>
-				<td style="text-align: center">Step 4</td>
-				<td>The user is confused as there were no indication of 
-					text boxes and if these text boxes are mandatory or not</td>
-				<td>The user doesn’t know if the textboxes are mandatory 
-					and they might get annoyed / frustrated if they find out 
-					later that they needed to fill them</td>
-				<td><span style="background-color: yellow">Medium&nbsp</span></td>
-			</tr>
-			<tr>
-				<td style="text-align: center">5</td>
-				<td style="text-align: center">2</td>
-				<td style="text-align: center">Step 5</td>
-				<td>The page that the user is redirected to is unclear. 
-					The user doesn’t know if their review has been 
-					uploaded successfully</td>
-				<td>The user might get frustrated if they found out that 
-					the review hasn’t been uploaded successfully, which may 
-					also happen after some time rather than immediately after 
-					since there is no clear indication</td>
-				<td><span style="background-color: red">High&nbsp</span></td>
-			</tr>
-			<tr>
-				<td style="text-align: center">6</td>
-				<td style="text-align: center">2</td>
-				<td style="text-align: center">Step 7</td>
-				<td>The user wants to confirm that their review has been 
-					successfully uploaded and spends a lot of time finding it 
-					as the section that contains the review has poor graphical 
-					elements and as such is easy to miss</td>
-				<td>The user will take more time than needed to confirm 
-					that their review has been successfully uploaded 
-					(also takes longer because the confirmation page is 
-					poorly made as stated previously)</td>
-				<td><span style="background-color: lime">Low&nbsp</span></td>
-			</tr>
-		</table>
+	</div>
+		<div style="background-color:black; height:4px"></div>
+		<div style="margin-left: 20%; margin-right: 20%;">
+			<br>
+			<div class="weekdiv"></div>
+			<span class="weektitle" id="week1">WEEK 1</span>
+			<div class="weekdiv"></div>
+			<p>
+				<span style="font-weight: bold; font-size: 30px" id="website">The website</span><br>
+				<span style="font-size: 20px">The compucore3 website has been made by 
+				the "CompuCore" research group at SETU. Its functionality is to for 
+				teachers to make assignments and for studens to submit their work. </span>
+			</p>
+			<div class="separatordiv"></div>
+			<p>
+				<span style="font-weight: bold; font-size: 30px" id="flows">The flows</span><br>
+				<span style="font-size: 20px">The two flows are going to review the process of:
+					<ol style="font-size: 20px">
+						<li><b>Flow 1 - View all submissions:</b><br>
+							A user has to navigate from the compucore3 website
+							home page to the "All artefacts" page to view all the
+							artefacts submissions.
+						</li>
+						<li><b>Flow 2 - Review a student’s artefact</b><br>
+							A user has to navigate from the "All artefacts" page
+							to a specific artefact page and leave a review of said
+							artefact.
+						</li>
+					</ol>
+				</span>
+			</p>
+			<div class="separatordiv"></div>
+			<br>
+			<span style="font-weight: bold; font-size: 30px" id="flow1">Flow chart 1</span><br>
+			<table style="width:45.3%">
+				<tr style="background-color:#FFB433;">
+					<th colspan="2" class="soloth">Flow 1 - Overview</th>
+				</tr>
+				<tr>
+					<td>Flow name</td>
+					<td>Viewing all submissions</td>
+				</tr>
+				<tr style="height: 40px">
+					<td>User role</td>
+					<td>Teacher</td>
+				</tr>
+				<tr style="height: 40px">
+					<td>Trigger (why does the user start this?)</td>
+					<td>The user is tasked to view the artefacts on the compucore3 website</td>
+				</tr>
+				<tr style="height: 40px">
+					<td>End state (what does success look like?)</td>
+					<td>The user is going to be in the page of the last artefact of the list of 
+						artefacts found in the compucore3 website</td>
+				</tr>
+			</table>
+			<br>
+			<p style="font-size: 20px; width:70%"><b>Flow summary: </b> 
+			The user navigates from the compucore3 home page to the
+			"All artefacts" page by pressing the button with the same text found on the 
+			top middle of the home page. Then the user will be able to access any of The
+			artefacts by clicking on any of the rows of the list that contains some informations
+			about each artefact.
+			</p>
+			<table>
+				<tr style="background-color:#80CBC4">
+					<th style="width:2%; border: 1px solid #80CBC4; padding: 5px;" class="leftth">#</th>
+					<th style="width:18%; border: 1px solid #80CBC4; padding: 5px;">User Action</th>
+					<th style="width:25%; border: 1px solid #80CBC4; padding: 5px;">System Response</th>
+					<th style="width:25%; border: 1px solid #80CBC4; padding: 5px;">User's Goal</th>
+					<th style="width:30%; border: 1px solid #80CBC4; padding: 5px;" class="rightth">Pain Point / Issue?</th>
+				</tr>
+				<tr>
+					<td style="text-align: center">1</th>
+					<td>From the compucore3 home page the user presses the “All artefacts”
+						button in the top- middle of the screen</td>
+					<td>The system takes the user to the “All artefacts” screen that shows
+						a list of all the submitted artefacts by other users</td>
+					<td>The user wants to get to the page of the compucore3 website 
+						that shows all the artefacts submissions</td>
+					<td><span class="red-icon">High</span>
+						The buttons on the top of the screen are of a bland color
+						(compared to the design of the rest of the page) and are very slim.
+						Any user could easily miss them</td>
+				</tr>
+				<tr>
+					<td style="text-align: center">2</td>
+					<td>The user clicks one the rows in the list of artefacts</td>
+					<td>The system takes the user to the artefact page</td>
+					<td>The user wants to access one of the artefacts of the list</td>
+					<td style="text-align: center">---</td>
+				</tr>
+				<tr>
+					<td style="text-align: center">3</td>
+					<td>The user is in the artefact page and can view the artefact</td>
+					<td>The system shows the artefact</td>
+					<td>The user wants to see the artefact</td>
+					<td style="text-align: center">---</td>
+				</tr>
+				<tr>
+					<td style="text-align: center">4</td>
+					<td>The user presses the “All artefacts” button again to go back to the list
+						of artefacts</td>
+					<td>The system takes the user to the artefacts page again</td>
+					<td>The user wants to go back to the “All artefacts” page to see 
+						the list again (to choose another one)</td>
+					<td><span class="green-icon">Low</span>
+						The user is sent back to the “All artefacts” page but the page is
+						just a list with barely any “fancy” graphical elements which,
+						combined with the fact that the user is sent back to the start
+						of the list each time, it makes tedious to navigate back to the row 
+						of the same artefact</td>
+				</tr>
+			</table>
+			<br>
+			<br>
+			<div class="separatordiv" style="margin-bottom: 10px;"></div>
+			<br>
+			<span style="font-weight: bold; font-size: 30px" id="flow2">Flow chart 2</span><br>
+			<table style="width:45.3%">
+				<tr style="background-color:#FFB433">
+					<th colspan="2" class="soloth">Flow 2 - Overview</th>
+				</tr>
+				<tr>
+					<td>Flow name</td>
+					<td>Reviewing a student’s artefact</td>
+				</tr>
+				<tr>
+					<td>User role</td>
+					<td>Teacher</td>
+				</tr>
+				<tr>
+					<td>Trigger (why does the user <br>start this?)</td>
+					<td>The user is tasked to review a student’s artefact</td>
+				</tr>
+				<tr>
+					<td>End state (what does <br>success look like?)</td>
+					<td>The user will be in the artefact of the student of their choice</td>
+				</tr>
+			</table>
+			<br>
+			<p style="font-size: 20px; width:70%"><b>Flow summary: </b> 
+			The user navigates from the "All artefacts" page to one of the artefacts page
+			to leave a review. After finding the form, the user compiles it by clicking on all
+			the necessary radio buttons and then fills in the text boxes that appear afterwards.
+			To finish off the user presses the "Done" button and gets redirected to a confusing page,
+			they then go back to the artefact page to check if their review has been successfully
+			uploaded.
+			</p>
+			<table>
+				<tr style="background-color:#80CBC4">
+					<th style="width:2%; border: 1px solid #80CBC4; padding: 5px;" class="leftth">#</th>
+					<th style="width:18%; border: 1px solid #80CBC4; padding: 5px;">User Action</th>
+					<th style="width:25%; border: 1px solid #80CBC4; padding: 5px;">System Response</th>
+					<th style="width:25%; border: 1px solid #80CBC4; padding: 5px;">User's Goal</th>
+					<th style="width:30%; border: 1px solid #80CBC4; padding: 5px;" class="rightth">Pain Point / Issue?</th>
+				</tr>
+				<tr>
+					<td style="text-align: center">1</th>
+					<td>From the “All artefacts” page the user will be able to select 
+						one of the artefacts in the list by pressing the corresponding row</td>
+					<td>The system takes the user to the appropriate artefact page that the 
+						user has selected.</td>
+					<td>The user wants to access the artefact’s page to be able to review it</td>
+					<td style="text-align: center">---</td>
+				</tr>
+				<tr>
+					<td style="text-align: center">2</td>
+					<td>From the page the user scrolls down to see a form-like section for 
+						the reviewing of the artefact</td>
+					<td>The system moves the page up revealing that underneath the section 
+						of the page that shows the artefact, there is a section that is forum-like 
+						with radio buttons for reviewing the artefact</td>
+					<td>The user wants to access a section that would allow them to review 
+						the artefact</td>
+					<td><span class="yellow-icon">Medium</span>
+						The page lacks artistic design elements so it is not intuitive what 
+						the user has / can do when they access it. This especially affects 
+						the side scroll bar so the user doesn’t know that they can scroll 
+						down unless they try to</td>
+				</tr>
+				<tr>
+					<td style="text-align: center">3</td>
+					<td>The user then compiles the form by selecting one of three options 
+						Yes, No or Not applicable for each question on the form.</td>
+					<td>Each time one of the answers options is selected for each question, 
+						a text box appears underneath the question </td>
+					<td>The user wants to review the artefact</td>
+					<td style="text-align: center">---</td>
+				</tr>
+				<tr>
+					<td style="text-align: center">4</td>
+					<td>The user fills the texts box with an appropriate description 
+						of why they’ve selected the answer for the corresponding question</td>
+					<td>The system doesn’t apply any changes to the page</td>
+					<td>The user wonders if the text boxes are mandatory and compiles 
+						them to make a more specific review</td>
+					<td><span class="yellow-icon">Medium</span>
+						The website doesn’t tell that there would be text boxes before showing them, 
+						leaving the user confused as there are also no indications if the text boxes 
+						are mandatory or not, or even if the maker of the artefact will be able
+						to see them</td>
+				</tr>
+				<tr>
+					<td style="text-align: center">5</td>
+					<td>The user, once completed the form, presses the “Finish” button</td>
+					<td>The system sends the user to a different page</td>
+					<td>The user wants to send the completed form to the system
+					<td><span class="red-icon">High</span>
+						The page that the user is redirected to is not clear and the
+						user remains confused as there is no back button or a clear
+						statement that the form has been successfully sent</td>
+				</tr>
+				<tr>
+					<td style="text-align: center">6</td>
+					<td>The user goes back to the artefact page by pressing the back
+						button provided by the browser</td>
+					<td>The system shows the artefact page again</td>
+					<td>The user wants to go back to the artefact page to see if 
+						the review they have sent has been successfully uploaded</td>
+					<td style="text-align: center">---</td>
+				</tr>
+				<tr>
+					<td style="text-align: center">7</td>
+					<td>The user searches and sees their review in the section 
+						that contains the informations regarding the artefact</td>
+					<td style="text-align: center">---</td>
+					<td>The user wants to confirm that the review they’ve sent has
+						been correctly uploaded</td>
+					<td><span class="green-icon">Low</span> 
+						The absence of  clear graphical elements makes, once again,
+						difficult to find the confirmation result in the user having
+						to thoroughly search the whole page</td>
+				</tr>
+			</table>
+			<br>
+			<br>
+			<div class="separatordiv" style="margin-bottom: 10px;"></div>
+			<br>
+			<span style="font-weight: bold; font-size: 30px" id="painPointLog">Pain Point Log</span><br>
+			<table>
+				<tr style="background-color: #fc3333;">
+					<th style="width:2%; border: 1px solid #fc3333; padding: 5px;" id="leftth">#</th>
+					<th style="width:3%; border: 1px solid #fc3333; padding: 5px;">Flow</th>
+					<th style="width:5%; border: 1px solid #fc3333; padding: 5px;">Where in the flow?<br>(step/screen)</th>
+					<th style="width:20%; border: 1px solid #fc3333; padding: 5px;">What happened?</th>
+					<th style="width:20%; border: 1px solid #fc3333; padding: 5px;">Why is this a problem?</th>
+					<th style="width:5%; border: 1px solid #fc3333; padding: 5px;" id="rightth">Severity</th>
+				</tr>
+				<tr>
+					<td style="text-align: center">1</td>
+					<td style="text-align: center">1</td>
+					<td style="text-align: center">Step 1</td>
+					<td>The user had difficulty navigating the menu</td>
+					<td>The user can’t complete their set objective 
+						(on the very first step)</td>
+					<td><span class="red-icon">High</span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center">2</td>
+					<td style="text-align: center">1</td>
+					<td style="text-align: center">Step 4</td>
+					<td>The user is sent to the top of the artefact list 
+						every time he goes back to the list page</td>
+					<td>The user has to scroll back down to the one they 
+						were looking at, and the absence of graphical 
+						decorations makes finding the previous one more tedious </td>
+					<td><span class="green-icon">Low</span></td></td>
+				</tr>
+				<tr>
+					<td style="text-align: center">3</td>
+					<td style="text-align: center">2</td>
+					<td style="text-align: center">Step 2</td>
+					<td>The user is confused when they open the artefact 
+						page for the first time</td>
+					<td>The user would have to take more time than needed 
+						to understand what they’re doing in the page</td>
+					<td><span class="yellow-icon">Medium</span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center">4</td>
+					<td style="text-align: center">2</td>
+					<td style="text-align: center">Step 4</td>
+					<td>The user is confused as there were no indication of 
+						text boxes and if these text boxes are mandatory or not</td>
+					<td>The user doesn’t know if the textboxes are mandatory 
+						and they might get annoyed / frustrated if they find out 
+						later that they needed to fill them</td>
+					<td><span class="yellow-icon">Medium</span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center">5</td>
+					<td style="text-align: center">2</td>
+					<td style="text-align: center">Step 5</td>
+					<td>The page that the user is redirected to is unclear. 
+						The user doesn’t know if their review has been 
+						uploaded successfully</td>
+					<td>The user might get frustrated if they found out that 
+						the review hasn’t been uploaded successfully, which may 
+						also happen after some time rather than immediately after 
+						since there is no clear indication</td>
+					<td><span class="red-icon">High</span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center">6</td>
+					<td style="text-align: center">2</td>
+					<td style="text-align: center">Step 7</td>
+					<td>The user wants to confirm that their review has been 
+						successfully uploaded and spends a lot of time finding it 
+						as the section that contains the review has poor graphical 
+						elements and as such is easy to miss</td>
+					<td>The user will take more time than needed to confirm 
+						that their review has been successfully uploaded 
+						(also takes longer because the confirmation page is 
+						poorly made as stated previously)</td>
+					<td><span class="green-icon">Low</span></td>
+				</tr>
+			</table>
+		</div>
 	<body>
 </html>
