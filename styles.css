@@ -66,8 +66,8 @@ body{
 }
 
 .weekdiv{
-  border-top: 2px solid #FFB433;
-  border-bottom: 2px solid #FFB433;
+  border-top: 2px solid #FD5433;
+  border-bottom: 2px solid #FD5433;
   height: 7px;
   width: 45.3%;
   display: inline-block;
@@ -75,7 +75,7 @@ body{
 }
 
 .weektitle{
-  color: #FFB433;
+  color: #FD5433;
   font-size: 25px;
   margin-left: 6px;
   margin-right: 6px;
@@ -101,6 +101,19 @@ body{
 }
 
 .separatordiv{
-  background-color: rgba(163, 163, 163, 0.459);
+  background-color: #a3a3a375;
   height: 1px;
+}
+
+.tableindex{
+  color:#4e4eff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subtitle{
+  border-bottom: 4px solid #ff8533;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 30px;
 }
