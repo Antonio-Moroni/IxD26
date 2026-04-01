@@ -137,6 +137,13 @@ body{
   border-bottom-right-radius: 10px;
 }
 
+.imagediv{
+  border: 1px solid #c4c4c4;
+  padding:30px;
+  padding-top: 30px;
+  border-radius: 10px;
+}
+
 .menureturndiv{
   background-color: #81818175;
   height: 1px;
